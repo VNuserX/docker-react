@@ -3,7 +3,7 @@ sudo: required
 services:
   - docker
 before_install:
-  - docker build -t v/docker-react -f Dockerfile.dev .
+  - docker build -t VNuserX / docker-react -f Dockerfile.dev .
 
 script:
-  - docker run v/docker-react npm run test -- --coverage
+  - docker run VNuserX / docker-react npm run test -- --coverage
